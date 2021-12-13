@@ -1,0 +1,14 @@
+[package]
+name = "egui-demo"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fltk-egui = "0.3"
+nfd = "0.0.4"
+native-windows-gui = "1.0.12"
+native-windows-derive = "1.0.3" # Optional. Only if the derive macro is used.
+redux-rs = "0.1.0"
+lazy_static = "1.4.0"
